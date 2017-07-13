@@ -7,7 +7,7 @@ Il a par défaut deux fonctions vide qu'on va alimenter:
         La première détermine a quoi doit ressembler la table en base de données.
         La seconde permet de détruire la table
 
-Hypothèse: Ainsi, qu'importe celle des trois bases de données appelée (prod, dev ou test),
+Qu'importe celle des trois bases de données appelée (prod, dev ou test),
 elles seront up (construites) et down (vidées) de la même manière.
 
  "$: knex migrate:latest --env test" va ensuite appliquer toutes les migrations qui ne sont pas run
