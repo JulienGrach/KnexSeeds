@@ -12,9 +12,6 @@ elles seront up (construites) et down (vidées) de la même manière.
 
  "$: knex migrate:latest --env test" va ensuite appliquer toutes les migrations qui ne sont pas run
  à la database correspondant à l'argument --env et grâce au fichier knex.js.
-
- Rien n'est précisé mais l'argument --env est le constructeur
- de la variable d'environnement process.env.NODE_ENV.
 */
 
 
