@@ -2,8 +2,10 @@
  On définit des "états", 3 objets différents contenant:
  1.Client de database
  2.Données de connexion
- 3.Un chemin migration pour ...
- 4.Un chemin seeds pour ...
+ 3.Un chemin migration pour cibler le schéma des databases, on l'utilisera pour les migrations
+            au début du projet.
+ 4.Un chemin seeds pour cibler les premières informations à entrer dans la DB au début du projet
+
 */
 
 
